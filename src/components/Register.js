@@ -16,9 +16,9 @@ class Register extends Component {
                 name, age, email, password
             }
         ).then(res => {
-            res.send(result)
+            console.log(res)
         }).catch(error => {
-            res.send(error)
+            console.log(error)
         })
         
 
